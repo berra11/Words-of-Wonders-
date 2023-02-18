@@ -1,0 +1,259 @@
+*{margin: 0; padding: 0; } ;
+
+header {
+   text-align: left; padding-left: 100px;
+}
+
+header h1 {
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2 {font-size: large;}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./pexels-photo-btf.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 650px auto;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative ;
+    margin: 0; padding: 0;
+}
+
+table {
+
+    position: relative;
+    margin: 0px auto;
+
+}
+
+td {
+
+ width: 40px;
+ height: 40px;
+
+}
+
+
+/* 
+.word{
+   background: #ffffff;
+   border-radius: 10px;
+   width: 55px;
+   height: 55px;
+   font-size: 30px;
+   text-align: center;
+   color: #fff;
+} 
+*/
+
+#word {
+   color: rgb(144, 88, 4);
+}
+
+.ld {
+ border: 2px solid #000;
+ background-color: rgb(144, 88, 4);
+
+}
+
+
+/* 
+body {
+   font-family: 'Gothic A1', sans-serif;
+   font-weight: 400;
+   background: url(win.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   margin: 0; padding: 0;
+
+} */
+
+/* .wheel{
+   position: absolute; top: 400px; left: 400px;
+
+
+   justify-content: center;
+   align-items: center;
+   margin: 100px auto;
+   margin-top: 25px;
+   display: flex;
+   flex-wrap: wrap;
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   border: 5px #bbb solid;
+   opacity: 0.9;
+} */
+
+
+#shuffle:hover {
+   background-color: #bbb;
+   border-radius: 50%;
+   color: white;
+   cursor: pointer;
+   /* width: 20px;
+   height: 20px; */
+
+
+  
+}
+
+#shuffle{
+   position: absolute;
+   background-color: #fffffe58;
+   border-radius: 50px;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   line-height: 45px;
+   font-size: 40px;
+   margin-left: -75px;
+   margin-top: -30px;
+  
+}
+
+#shift{
+   position: relative;
+   width: 220px;
+   height: 220px;
+   border-radius: 50%;
+   /* background: #d9d4d43c; */
+   margin: 500px auto;
+   margin-left: 110px;
+   margin-bottom: 260px;
+}
+
+
+
+.lightBulb {
+   margin-left: 850px;
+   margin-top: 60px;
+   cursor: pointer;
+}
+
+.wheel{
+   justify-content: center;
+   align-content: center;
+   margin: 100px auto;
+   margin-top: 25px;
+   display: flex;
+   flex-wrap: wrap;
+   height: 260px;
+   width: 260px;
+   border-radius: 50%;
+   border: 5px #bbb solid;
+   opacity: 0.9; 
+   background:rgba(75, 47, 77, 0.7);
+
+}
+
+
+
+.lightBulb > .material-symbols-outlined {
+   border-radius: 50%;
+   margin-left: -500px;
+   line-height: 50px;
+   height: 50px;
+   width: 50px;
+   background:rgba(75, 47, 77, 0.7);
+
+}
+.lightBulb:hover {
+   color: rgb(8, 157, 8);
+}
+
+
+.letter1{
+   position: absolute;
+   font-size: 32px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 50px;
+   height: 50px;
+   line-height: 35px;
+   /* background: rgb(149, 58, 58); */
+   border-radius: 50%;
+   margin-top: -30px;
+   margin-left: 80px;
+   cursor: pointer;
+}
+
+.letter2 {
+   position: absolute;
+   font-size: 32px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 50px;
+   height: 50px;
+   /* background: rgb(149, 58, 58); */
+   margin-top: -120px;
+   margin-left: 50px;
+   line-height: 69px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+
+.letter3 {
+  
+   position: absolute;
+   font-size: 32px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 50px;
+   height: 50px;
+   line-height: 35px; 
+   /* background: rgb(149, 58, 58); */
+   margin-top: 70px;
+   margin-left: 0px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.letter4{
+   position: absolute;
+   font-size: 32px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 50px;
+   height: 50px;
+   line-height: 35px;   
+   cursor: pointer;
+   margin-top: -30px;
+   margin-left: -90px;
+   border-radius: 50%;
+}
+
+.letter5{
+   position: absolute;
+   font-size: 32px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 50px;
+   height: 50px;
+   line-height: 35px;  
+   cursor: pointer;
+   margin-top: -105px;
+   margin-left: -60px;
+   border-radius: 50%;
+}
+
+
+.panel{
+   height: 40px; 
+   text-align: center;
+   margin: 10px auto;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#panel{
+   background-color: rgb(126, 40, 40);
+   border-radius: 20px;
+}
+
+
+
+
+
